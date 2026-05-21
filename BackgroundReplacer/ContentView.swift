@@ -21,7 +21,7 @@ struct ContentView: View {
                     .ignoresSafeArea()
             }
             
-            // Камера поверх видео (с прозрачным фоном если сегментация активна)
+            // Камера поверх видео (с прозрачным фоном, если сегментация активна)
             if let frame = currentFrame {
                 Image(uiImage: frame)
                     .resizable()
@@ -31,24 +31,44 @@ struct ContentView: View {
             
             // UI поверх всего
             VStack {
-                // Верхняя панель
+                // Верхняя панель с информацией об идентификации
                 HStack {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("Обнаружено людей:")
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Статус идентификации:")
                             .font(.caption)
-                            .foregroundColor(.white.opacity(0.8))
+                            .foregroundColor(.white.opacity(0.7))
                         
-                        Text("\(peopleCount)")
-                            .font(.system(size: 28, weight: .bold, design: .rounded))
-                            .foregroundColor(.cyan)
+                        if detectedPeople.isEmpty {
+                            Text("В кадре никого нет")
+                                .font(.system(size: 16, weight: .medium, design: .rounded))
+                                .foregroundColor(.gray)
+                        } else {
+                            // Выводим список имен людей, которые сейчас находятся в кадре
+                            ForEach(detectedPeople, id: \.id) { person in
+                                HStack(spacing: 6) {
+                                    Circle()
+                                        .fill(person.name != "Не определен" ? Color.green : Color.red)
+                                        .frame(width: 8, height: 8)
+                                    
+                                    Text(person.name != "Не определен" ? person.name : "Неизвестный пользователь")
+                                        .font(.system(size: 16, weight: .bold, design: .rounded))
+                                        .foregroundColor(person.name != "Не определен" ? .green : .white)
+                                    
+                                    Text(String(format: "(%.0f%%)", person.confidence * 100))
+                                        .font(.caption2)
+                                        .foregroundColor(.white.opacity(0.6))
+                                }
+                            }
+                        }
                     }
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 10)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 12)
                     .background(.ultraThinMaterial)
-                    .cornerRadius(12)
+                    .cornerRadius(14)
                     
                     Spacer()
                     
+                    // Кнопка смены камеры
                     Button(action: {
                         cameraManager.switchCamera()
                     }) {
@@ -65,9 +85,9 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                // Нижняя панель — выбор фона
+                // Нижняя панель — выбор интерактивного фона
                 VStack(spacing: 10) {
-                    Text("Фон")
+                    Text("Интерактивный фон")
                         .font(.subheadline)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -87,7 +107,7 @@ struct ContentView: View {
                                     .padding(.vertical, 10)
                                     .background(
                                         selectedBackground == background
-                                            ? Color.cyan
+                                            ? Color.green // Поменяли на зеленый, так как это стандарт для хромакея / успешного распознавания
                                             : Color.white.opacity(0.15)
                                     )
                                     .foregroundColor(
