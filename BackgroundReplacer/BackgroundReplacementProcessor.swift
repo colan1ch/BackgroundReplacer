@@ -73,6 +73,7 @@ class BackgroundReplacementProcessor: NSObject {
     
     func setBackgroundType(_ type: BackgroundType) {
         currentBackgroundType = type
+        print("🟢 [BACKGROUND CHANGED] Фон изменён на: \(type.rawValue)")
         onBackgroundTypeChanged?(type)
     }
     
@@ -109,6 +110,8 @@ class BackgroundReplacementProcessor: NSObject {
             // --- Person detection & tracking ---
             let observations = detectionRequest.results ?? []
             let detectedPeople = self.trackPeople(observations)
+            let peopleIDs = detectedPeople.map { $0.id.uuidString.prefix(6) }.joined(separator: ", ")
+            print("👤 [PERSON DETECTION] Обнаружено людей: \(detectedPeople.count) | ID: [\(peopleIDs)]")
             
             // --- Segmentation (background replacement) ---
             let ciImage = CIImage(cvPixelBuffer: pixelBuffer)
