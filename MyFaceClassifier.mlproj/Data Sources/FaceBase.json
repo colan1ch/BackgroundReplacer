@@ -1,0 +1,51 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:29Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "2F6F3CE8-D7FC-4C84-9DB4-509FBC11D084",
+        "subtitle" : "MyFaceClassifier 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:29Z",
+        "event" : "dataSourceMetrics",
+        "id" : "2EBD751F-6582-433D-A14F-7402B0A4BC6C",
+        "subtitle" : "4 Classes, 45 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:25Z",
+        "event" : "dataSourceCreated",
+        "id" : "019E7334-C71D-49B6-B240-B13FC1E2C76E",
+        "subtitle" : "FaceBase",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-21T11:55:25Z",
+  "dataPathRelativeToProjectURL" : "../FaceBase/",
+  "dataResult" : {
+    "createdDate" : "2026-05-21T11:55:25Z",
+    "dataSourceID" : "33C22768-98BC-4A72-B386-2E1AA0662719",
+    "dataURL" : "file:///Users/nachernev/Desktop/FaceBase/"
+  },
+  "dataURL" : "file:///Users/nachernev/Desktop/FaceBase/",
+  "experimentIDs" : [
+    "0ED71EC6-99EB-4499-82D1-9F0516BE7FEF"
+  ],
+  "id" : "33C22768-98BC-4A72-B386-2E1AA0662719",
+  "modifiedDate" : "2026-05-21T11:55:29Z",
+  "pathType" : 0,
+  "preferredFilename" : "FaceBase",
+  "title" : "FaceBase",
+  "version" : "1.0"
+}

@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:17Z",
+        "event" : "projectCreated",
+        "id" : "952EBECD-2DCC-4AE3-92A3-6EA7F8C08CD3",
+        "subtitle" : "MyFaceClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Nickolay Chernev",
+  "createdDate" : "2026-05-21T11:55:17Z",
+  "description" : "",
+  "id" : "FBA84C00-E000-40B3-BAB6-F5B68E632EF6",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-21T11:55:17Z",
+  "projectName" : "MyFaceClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}

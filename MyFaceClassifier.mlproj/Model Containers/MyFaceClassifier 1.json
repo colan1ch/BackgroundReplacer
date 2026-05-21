@@ -1,0 +1,949 @@
+{
+  "activityEntities" : [
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:30Z",
+        "event" : "trainingFinished",
+        "id" : "4A34C8F6-3C11-4AB3-9EF1-445F331CC813",
+        "subtitle" : "Model converged at 18 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:17Z",
+        "event" : "experimentCreated",
+        "id" : "B172CEBF-C9E9-4C38-BF4A-65AFD494985A",
+        "subtitle" : "MyFaceClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:25Z",
+        "event" : "trainingDataAdded",
+        "id" : "E09C67CB-0399-4EBE-935C-CC3C6D5092FF",
+        "subtitle" : "FaceBase",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-21T11:55:29Z",
+        "event" : "trainingStarted",
+        "id" : "CEE2FD02-FCBB-4D08-9076-D693754C9369",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-05-21T11:55:25Z"
+  },
+  "createdDate" : "2026-05-21T11:55:17Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-05-21T11:55:30Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "none",
+        "createdDate" : "2026-05-21T11:55:30Z",
+        "dataResult" : {
+
+        },
+        "id" : "5aef2ee7-5717-428a-ae4a-21f8c7be6098"
+      }
+    ],
+    "id" : "bf8eab7e-8e00-457e-95c0-56d787a6581a",
+    "modifiedDate" : "2026-05-21T11:55:30Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-21T11:55:17Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-21T11:55:25Z"
+      },
+      "id" : "55755d2d-1486-4981-b141-f0a430b30858"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-21T11:55:17Z",
+      "dataResult" : {
+        "classesCount" : 4,
+        "createdDate" : "2026-05-21T11:55:25Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2108.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1488.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1796.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_0656.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/9.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2958.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2155.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1145.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Sharaev/IMG_2977.HEIC",
+              [
+                "Sharaev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8226.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/10.%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%20%D1%81%20%D0%BA%D0%BE%D1%82%D0%BE%D0%BC.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1630.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1994.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/11.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1271.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2974%202.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2818.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Unknown/images-4.jpeg",
+              [
+                "Unknown"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/images.jpeg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/14.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1628.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8910.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/8.%201922%20%D0%B3%D0%BE%D0%B4.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/4.%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD,%20%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%201918.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2946.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2975.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_0085.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2940.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/7.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/images-2.jpeg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/6.jpg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1761.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Unknown/closeup-portrait-handsome-man-gym-260nw-314437919.jpg.webp",
+              [
+                "Unknown"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_0243.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1422.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Unknown/images-5.jpeg",
+              [
+                "Unknown"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8844.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1947.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8769.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2976.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/images-3.jpeg",
+              [
+                "Lenin"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2974%203.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8201.PNG",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_9987.HEIC",
+              [
+                "Chernev"
+              ],
+              "file:///Users/nachernev/Desktop/FaceBase/Lenin/5.%201919%20%D0%B3%D0%BE%D0%B4.jpg",
+              [
+                "Lenin"
+              ]
+            ],
+            "labelStats" : {
+              "Chernev" : 29,
+              "Lenin" : 12,
+              "Sharaev" : 1,
+              "Unknown" : 3
+            }
+          },
+          "issues" : [
+            {
+              "description" : "4 classes found, including Chernev, Lenin, Unknown",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Less than 50 total images found - add more to improve model validation",
+              "severity" : "warning"
+            },
+            {
+              "description" : "Smallest class is \"Sharaev\" with 1 images",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"Chernev\" with 29 images",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 0,
+            "classCount" : 4,
+            "sampleCount" : 45
+          }
+        },
+        "dataSourceID" : "33C22768-98BC-4A72-B386-2E1AA0662719",
+        "dataURL" : "file:///Users/nachernev/Desktop/FaceBase/",
+        "itemsCount" : 45
+      },
+      "dataSourceID" : "33C22768-98BC-4A72-B386-2E1AA0662719",
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 1,
+          "confusionMatrix" : [
+            {
+              "actual" : "Chernev",
+              "count" : 29,
+              "expected" : "Chernev"
+            },
+            {
+              "actual" : "Lenin",
+              "count" : 12,
+              "expected" : "Lenin"
+            },
+            {
+              "actual" : "Sharaev",
+              "count" : 1,
+              "expected" : "Sharaev"
+            },
+            {
+              "actual" : "Unknown",
+              "count" : 3,
+              "expected" : "Unknown"
+            }
+          ],
+          "statsByLabel" : {
+            "Chernev" : {
+              "count" : 29,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Lenin" : {
+              "count" : 12,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Sharaev" : {
+              "count" : 1,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "Unknown" : {
+              "count" : 3,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "a1aa1cae-7afb-4d92-867a-0d268503b92e"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-05-21T11:55:17Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-21T11:55:25Z"
+      },
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 0,
+          "confusionMatrix" : [
+
+          ],
+          "statsByLabel" : {
+
+          }
+        }
+      },
+      "id" : "9e6d6713-ac03-4065-82ff-1d1c0eccba00"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "e66c3922-6f30-40b4-925a-53bbb40248a5"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "0ED71EC6-99EB-4499-82D1-9F0516BE7FEF",
+  "modelEntity" : {
+    "createdDate" : "2026-05-21T11:55:17Z",
+    "experimentID" : "0ED71EC6-99EB-4499-82D1-9F0516BE7FEF",
+    "id" : "C24DBF43-6AF6-4BC6-89B7-687A99D81CA3",
+    "modelURL" : "Models/MyFaceClassifier%201.mlmodel",
+    "modifiedDate" : "2026-05-21T11:55:17Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-05-21T11:55:30Z",
+  "preferredFilename" : "MyFaceClassifier 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "MyFaceClassifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "25" : {
+        "createdDate" : "2026-05-21T11:55:30Z",
+        "iteration" : 25,
+        "metrics" : {
+
+        }
+      }
+    },
+    "dataResult" : {
+      "classesCount" : 4,
+      "createdDate" : "2026-05-21T11:55:25Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2108.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1488.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1796.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_0656.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/9.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2958.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2155.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1145.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Sharaev/IMG_2977.HEIC",
+            [
+              "Sharaev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8226.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/10.%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%20%D1%81%20%D0%BA%D0%BE%D1%82%D0%BE%D0%BC.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1630.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1994.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/11.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1271.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2974%202.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2818.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Unknown/images-4.jpeg",
+            [
+              "Unknown"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/images.jpeg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/14.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1628.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8910.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/8.%201922%20%D0%B3%D0%BE%D0%B4.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/4.%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD,%20%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%201918.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2946.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2975.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_0085.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2940.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/7.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/images-2.jpeg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/6.jpg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1761.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Unknown/closeup-portrait-handsome-man-gym-260nw-314437919.jpg.webp",
+            [
+              "Unknown"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_0243.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1422.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Unknown/images-5.jpeg",
+            [
+              "Unknown"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8844.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_1947.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8769.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2976.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/images-3.jpeg",
+            [
+              "Lenin"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_2974%203.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_8201.PNG",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Chernev/IMG_9987.HEIC",
+            [
+              "Chernev"
+            ],
+            "file:///Users/nachernev/Desktop/FaceBase/Lenin/5.%201919%20%D0%B3%D0%BE%D0%B4.jpg",
+            [
+              "Lenin"
+            ]
+          ],
+          "labelStats" : {
+            "Chernev" : 29,
+            "Lenin" : 12,
+            "Sharaev" : 1,
+            "Unknown" : 3
+          }
+        },
+        "issues" : [
+          {
+            "description" : "4 classes found, including Chernev, Lenin, Unknown",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Less than 50 total images found - add more to improve model validation",
+            "severity" : "warning"
+          },
+          {
+            "description" : "Smallest class is \"Sharaev\" with 1 images",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"Chernev\" with 29 images",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 0,
+          "classCount" : 4,
+          "sampleCount" : 45
+        }
+      },
+      "dataSourceID" : "33C22768-98BC-4A72-B386-2E1AA0662719",
+      "dataURL" : "file:///Users/nachernev/Desktop/FaceBase/",
+      "itemsCount" : 45
+    },
+    "dataSourceID" : "33C22768-98BC-4A72-B386-2E1AA0662719",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-05-21T11:55:30Z",
+    "progress" : [
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.01714801788330078,
+          "hasValidation" : false,
+          "iterationCount" : 2,
+          "trainingAccuracy" : 0.26666666666666666,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.02095508575439453,
+          "hasValidation" : false,
+          "iterationCount" : 3,
+          "trainingAccuracy" : 0.26666666666666666,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.029362082481384277,
+          "hasValidation" : false,
+          "iterationCount" : 4,
+          "trainingAccuracy" : 0.9111111111111111,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.03529500961303711,
+          "hasValidation" : false,
+          "iterationCount" : 5,
+          "trainingAccuracy" : 0.8888888888888888,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 11,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.06105697154998779,
+          "hasValidation" : false,
+          "iterationCount" : 11,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 18,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.10187602043151855,
+          "hasValidation" : false,
+          "iterationCount" : 18,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 30,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 35,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 40,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 45,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      }
+    ],
+    "resumableCheckpoint" : {
+      "checkpointURL" : "file:///Users/nachernev/Library/Caches/com.apple.dt.createml/projects/FBA84C00-E000-40B3-BAB6-F5B68E632EF63bdf106d086d92a9cc8b41b00c8034d3d97bd284/sessions/checkpoint.sessions/0ED71EC6-99EB-4499-82D1-9F0516BE7FEF/training-000000025.checkpoint",
+      "createdDate" : "2026-05-21T11:55:30Z",
+      "iteration" : 25
+    },
+    "resumableCheckpointURL" : "Checkpoints/0ED71EC6-99EB-4499-82D1-9F0516BE7FEF.MyFaceClassifier1.checkpoint",
+    "snapshottableCheckpointModelURL" : "Checkpoints/0ED71EC6-99EB-4499-82D1-9F0516BE7FEF.MyFaceClassifier1.checkpoint/training-000000025.checkpoint.model/checkpointModel.mlmodel",
+    "snapshottableCheckpoints" : {
+      "25" : {
+        "createdDate" : "2026-05-21T11:55:30Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/nachernev/Library/Caches/com.apple.dt.createml/projects/FBA84C00-E000-40B3-BAB6-F5B68E632EF63bdf106d086d92a9cc8b41b00c8034d3d97bd284/sessions/checkpoint.sessions/0ED71EC6-99EB-4499-82D1-9F0516BE7FEF/training-000000025.checkpoint.model/checkpointModel.mlmodel"
+      }
+    },
+    "startTime" : "2026-05-21T11:55:29Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "Chernev",
+            "count" : 29,
+            "expected" : "Chernev"
+          },
+          {
+            "actual" : "Lenin",
+            "count" : 12,
+            "expected" : "Lenin"
+          },
+          {
+            "actual" : "Sharaev",
+            "count" : 1,
+            "expected" : "Sharaev"
+          },
+          {
+            "actual" : "Unknown",
+            "count" : 3,
+            "expected" : "Unknown"
+          }
+        ],
+        "statsByLabel" : {
+          "Chernev" : {
+            "count" : 29,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Lenin" : {
+            "count" : 12,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Sharaev" : {
+            "count" : 1,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Unknown" : {
+            "count" : 3,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0,
+    "validationResults" : {
+      "imageClassifier" : {
+        "accuracy" : 0,
+        "confusionMatrix" : [
+
+        ],
+        "statsByLabel" : {
+
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-05-21T11:55:25Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
